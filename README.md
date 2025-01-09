@@ -39,9 +39,9 @@ A simple weather application built with **React** and **Vite**. This app provide
 
 1. Sign up at https://www.weatherapi.com
 2. Get your API Key.
-3. Replace the placeholder API key in the app with your own:
+3. Replace the placeholder API key in the app.jsx with your own:
    ```bash
-   const API_KEY = 'your_api_key';
+   const apiKey = 'your_api_key';
    ```
 
 ## Usage
