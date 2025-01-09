@@ -38,7 +38,7 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      const apiKey = "fe6e3cbe6b2f41aa9d492556242409";
+      const apiKey = "your_api_key";
       const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
       const response = await fetch(url);
