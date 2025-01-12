@@ -3,6 +3,7 @@
 A simple weather application built with **React** and **Vite**. This app provides real-time weather updates and forecasts using an external weather API.
 
 ---
+[Visit site](https://weather-api-app-reactt.netlify.app/)
 
 ## **Features**
 
