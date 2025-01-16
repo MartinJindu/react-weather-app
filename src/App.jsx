@@ -38,8 +38,8 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      const apiKey = "fe6e3cbe6b2f41aa9d492556242409";
-      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+      const apiKey = import.meta.env.VITE_API_KEY; // Replace with your API key from weatherapi
+      const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
       const response = await fetch(url);
       const data = await response.json();
