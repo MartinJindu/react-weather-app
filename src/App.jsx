@@ -39,6 +39,7 @@ function App() {
     setError("");
     try {
       const apiKey = import.meta.env.VITE_API_KEY; // Replace with your API key from weatherapi
+
       const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
       const response = await fetch(url);
